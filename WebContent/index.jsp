@@ -8,10 +8,10 @@
 <script>
 window.onload = function () {
 	document.getElementById("input").onclick = function(){
-		location.href = "input.jsp";
+		location.href = "input.do";
 	}
 	document.getElementById("output").onclick = function(){
-		location.href = "output.jsp";
+		location.href = "output.do";
 		
 	}	
 }
