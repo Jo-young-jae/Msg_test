@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import kh.web.beans.MessageDAO;
 import kh.web.beans.MessageDTO;
 
-@WebServlet("/*.do")
+@WebServlet("*.do")
 public class FrontController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
